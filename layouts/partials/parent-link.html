@@ -1,0 +1,3 @@
+{{ if and (ne .RelPermalink "/") (ne .Parent.RelPermalink "/") }}
+    <a href="{{ .Parent.RelPermalink }}" class="parent-link">{{ .Parent.Title }}</a>
+{{ end }}

@@ -1,0 +1,8 @@
+<div class="header-top">
+    <h1><a href="/">{{ .Site.Title }}</a></h1>
+    <button id="dark-mode-toggle">
+        <span id="dark-mode-toggle-light" class="hidden">{{ partial "light.svg" .}}</span>        
+        <span id="dark-mode-toggle-dark">{{ partial "dark.svg" .}}</span> 
+    </button>
+</div>
+{{partial "navbar.html" . }} 

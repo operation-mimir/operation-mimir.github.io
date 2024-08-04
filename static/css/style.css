@@ -1,0 +1,338 @@
+:root {
+    --primary-accent-color: #e0432e;
+    --primary-background-color: #E8E8E8;
+    --secondary-background-color: #E8E8E8;
+    --article-background-color: white;
+    --article-hover-background-color: white;
+    --primary-text-color: black;
+    --date-text-color: hsl(0, 0%, 50%);
+}
+
+[data-theme='dark'] {
+    --primary-background-color: #0D0D0D;
+    --secondary-background-color: #1F1F1F;
+    --article-background-color: #1F1F1F;
+    --article-hover-background-color: #0D0D0D;
+    --primary-text-color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Apply Roboto as the font family for the entire body */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-text-color);
+}
+
+h4 {
+    font-size: 12px;
+    color: var(--date-text-color);
+}
+
+a {
+    color: var(--primary-accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------- header -----------------  */
+
+header {
+    padding: 15px 20px;
+    background: var(--primary-accent-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    color: inherit;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-top a:hover {
+    text-decoration: none;
+}
+
+header h1 {
+    flex: 1;
+}
+
+header button {
+    border: 0;
+    padding: 0;
+    border-radius: 15px;
+    background-color: white;
+    color: var(--primary-accent-color);
+    height: 30px;
+    width: 30px;
+    cursor:pointer;
+}
+
+
+header button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header button span svg {
+    height: 25px;
+    width: auto;
+}
+
+header button span svg path {
+    fill: var(--primary-accent-color);
+}
+
+.hidden {
+    display: none;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+/* ----------------- main -----------------  */
+
+main {
+    flex: 1;
+    padding: 25px 20px;
+    background: var(--primary-background-color);
+}
+
+main>a:hover {
+    text-decoration: underline;
+}
+
+article {
+    padding: 10px;
+    background: var(--article-background-color);
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.highlight {
+    border: 1px solid var(--primary-background-color);
+    border-radius: 5px;
+    background-color: #282a36;
+    overflow-x: auto;
+}
+
+.articles {
+    --min-column-size: 20rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit , minmax(min(var(--min-column-size),100%),1fr));
+}
+
+.post-tag-list {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    overflow-x: scroll;
+    padding-bottom: 12px;
+    white-space: nowrap;
+}
+
+.article-tag-list {
+    flex-wrap: wrap;
+    overflow-x: unset;
+}
+
+.post-snippet {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-snippet .post-snippet-link {
+    color: var(--primary-text-color);
+    flex: 1;
+}
+
+.post-snippet .post-snippet-link:hover {
+    color: var(--primary-accent-color);
+    text-decoration: none;
+}
+
+.post-snippet p {
+    min-height: 20vh;
+    max-height: 40vh;
+    overflow: scroll;
+}
+
+.post-snippet:has(.post-snippet-link:hover)  {
+    background: var(--article-hover-background-color);
+    box-shadow: 0 0 0 2px white;
+}
+
+.page-navigation {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pagination {
+    padding-top: 20px;
+    text-align: center;
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pagination li {
+    border-radius: 5px;
+    background: var(--article-background-color);
+    display: block;
+    height: 15px;
+    min-width: 15px;
+    padding: 5px;
+}
+
+.pagination li:hover,
+.pagination .active {
+    background-color: var(--primary-accent-color);
+    color: white;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-list a {
+    color: var(--primary-text-color);
+}
+
+.item-list a:hover {
+    color: var(--primary-accent-color);
+    text-decoration: none;
+}
+
+.item-list a:hover article {
+    background: var(--article-hover-background-color);
+    box-shadow: 0 0 0 2px white;
+}
+
+
+/* ---------- tag list -------------- */
+.tag-list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.tag-list a {
+    background-color: var(--article-background-color);
+    padding: 5px;
+    border-radius: 10px;    
+}
+
+.tag-list a:hover {
+    background-color: var(--article-hover-background-color);
+    box-shadow: 0 0 0 2px white;
+}
+
+/* ----- 404 page -------- */
+.code404 {
+    text-align: center;
+}
+
+.code404-help {
+    padding: 20px;
+}
+
+.code404-help p {
+    margin: 0.5em;
+}
+
+
+.code404 h1 {
+    font-size: 8rem;
+    color: var(--primary-accent-color);
+}
+
+
+
+
+/* ----------------- footer -----------------  */
+
+footer {
+    margin-bottom: 0;
+    padding: 30px 10px;
+    background: var(--secondary-background-color);
+    border-top: 1px solid #1F1F1F;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+footer a {
+    color: var(--primary-text-color);
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: var(--primary-accent-color);
+}

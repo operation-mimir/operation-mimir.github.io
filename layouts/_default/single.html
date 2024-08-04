@@ -1,0 +1,42 @@
+{{ define "main" }}
+  {{ partial "parent-link.html" . }}
+  {{ partial "title.html" . }}
+  <article class="single-article">
+    {{ if .Date }}
+      <h4>{{ dateFormat "Monday, January 2, 2006" .Date }}</h4>
+    {{ end }}
+    {{ if .Params.tags }}
+      <ul class="post-tag-list article-tag-list">
+        {{ range sort .Params.tags }}
+          <li><a href="/tags/{{ . | urlize }}">#{{ . }}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}	
+    {{ .Content }}
+    {{ if not .Params.noindex }}
+    <nav class="page-navigation">
+        {{ if .PrevInSection }}
+          <a class="prev" href="{{ .PrevInSection.RelPermalink }}">Previous:
+            {{ if .PrevInSection.Params.subtitle }}
+                {{ .PrevInSection.Params.subtitle }}
+            {{ else }}
+                {{ .PrevInSection.Title }}
+            {{ end }}
+          </a>
+        {{ else }}
+          <a href=""></a>
+        {{ end }}
+        {{ if .NextInSection }}
+          <a class="next" href="{{ .NextInSection.RelPermalink }}">Next: 
+            {{ if .NextInSection.Params.subtitle }}
+                {{ .NextInSection.Params.subtitle }}
+            {{ else }}
+                {{ .NextInSection.Title }}
+            {{ end }}
+          </a>
+        {{ end }}
+      </nav>    
+    {{ end }}
+  </article>
+  
+{{ end }}

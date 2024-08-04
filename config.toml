@@ -1,0 +1,16 @@
+baseURL = 'https://operation-mimir.github.io/'
+languageCode = 'en-us'
+title = 'Operation Mímir'
+[taxonomies]
+  tags = "tags"
+[pagination]
+  disableAliases = false
+  pagerSize = 20
+  path = 'page'
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+    lineNos = true
+    noClasses = false
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files

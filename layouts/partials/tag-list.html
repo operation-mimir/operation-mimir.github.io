@@ -1,0 +1,7 @@
+{{ if .Params.tags }}
+    <ul class="post-tag-list">
+        {{ range sort .Params.tags }}
+            <li><a href="/tags/{{ . | urlize }}">#{{ . }}</a></li>
+        {{ end }}
+    </ul>
+{{ end }}

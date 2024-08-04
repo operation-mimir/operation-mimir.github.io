@@ -1,0 +1,21 @@
+{{ define "main" }}
+	<div class="content">
+		{{ .Content }}
+	</div>
+	<div class="articles">
+		{{ range (.Paginate .Site.RegularPages.ByDate.Reverse ).Pages }}
+			{{ if not .Params.noindex }}
+				<article class="post-snippet">
+					{{ partial "tag-list.html" . }}	
+					<a href="{{ .RelPermalink }}" class="post-snippet-link">
+						{{ partial "title.html" . }}
+						<h4>{{ dateFormat "Monday, January 2, 2006" .Date }}</h4>
+						<p>{{ .Summary }}</p>
+					</a>
+					{{ partial "parent-link.html" . }}
+				</article>
+			{{ end }}
+		{{ end }}
+	</div>
+	{{ template "_internal/pagination.html" . }}
+{{ end }}

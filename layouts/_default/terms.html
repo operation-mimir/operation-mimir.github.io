@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <ul class="tag-list">
+    {{ range (.Paginate .Pages.ByTitle 100).Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }} {{ len .Pages }}</a></li>
+    {{ end }}
+  </ul>
+  {{ template "_internal/pagination.html" . }}
+  {{ end }}

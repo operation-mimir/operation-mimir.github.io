@@ -1,0 +1,18 @@
+{{ define "main" }}
+	<h1>{{ .Title }}</h1>
+	<div class="content">
+		{{ .Content }}
+	</div>
+	<div class="item-list">
+		{{ range .Parent.Sections }}
+            {{ if not .Params.noindex }}
+                <a href="{{ .RelPermalink }}">
+                    <article>
+                        <h2>{{ .Params.Title }}</h2>
+                        <p>{{ .Summary }}</p>
+                    </article>
+                </a>
+            {{ end }}
+		{{ end }}
+	</div>
+{{ end }}
