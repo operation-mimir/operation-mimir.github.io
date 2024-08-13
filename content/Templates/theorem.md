@@ -1,0 +1,9 @@
+---
+title: 
+tags:
+---
+*Statement*
+
+## Proof
+
+
