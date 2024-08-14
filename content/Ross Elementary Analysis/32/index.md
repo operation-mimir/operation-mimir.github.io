@@ -1,5 +1,6 @@
 ---
 title: Section 32 The Riemann Integral
+tags:
 ---
 Parent: [[Ross Elementary Analysis/Chapter 6|Chapter 6 Integration]]
 
