@@ -1,5 +1,5 @@
 ---
-title: "Ross, Kenneth A. (2013). Elementary Analysis: The Theory of Calculus"
+title: "Ross, Kenneth A. (2013). Elementary Analysis: The Theory of Calculus (2nd ed.)"
 tags:
   - real-analysis
   - calculus

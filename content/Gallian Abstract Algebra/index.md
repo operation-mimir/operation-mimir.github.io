@@ -1,5 +1,5 @@
 ---
-title: Gallian, Joseph. A. (2017). Contemporary Abstract Algebra
+title: Gallian, Joseph. A. (2017). Contemporary Abstract Algebra (7th ed.)
 tags:
   - algebra/abstract
 ---

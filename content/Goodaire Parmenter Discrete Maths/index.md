@@ -1,5 +1,5 @@
 ---
-title: Goodaire, Edgar G., & Parmenter, Michael M. (2006). Discrete Mathematics with Graph Theory
+title: Goodaire, Edgar G., & Parmenter, Michael M. (2006). Discrete Mathematics with Graph Theory (2nd ed.)
 tags:
   - discrete-mathematics/graph-theory
 ---
