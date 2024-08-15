@@ -4,7 +4,7 @@ tags:
   - integration
 ---
 
-Previous: [[Chapter 5]]
+Previous: [[Ross Elementary Analysis/Chapter 5|Chapter 5]]
 ## Sections
 32. [[Ross Elementary Analysis/32/index|The Riemann Integral]]
 33.  [[Ross Elementary Analysis/33/index|Properties of Riemann Integral]]
@@ -13,4 +13,4 @@ Previous: [[Chapter 5]]
 36. [[Ross Elementary Analysis/36/index|Improper Integrals]]
 
 
-Next: [[Chapter 7]]
+Next: [[Ross Elementary Analysis/Chapter 7|Chapter 7]]
