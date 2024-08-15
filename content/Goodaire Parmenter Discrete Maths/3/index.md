@@ -1,5 +1,5 @@
 ---
-title: Functions
+title: Chapter 3 Functions
 tags:
   - functions
   - set/cardinality

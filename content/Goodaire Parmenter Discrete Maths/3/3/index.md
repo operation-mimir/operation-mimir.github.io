@@ -1,5 +1,5 @@
 ---
-title: One-to-One Correspondence and the Cardinality of a Set
+title: Section 3.3 One-to-One Correspondence and the Cardinality of a Set
 tags:
   - set/cardinality
 ---

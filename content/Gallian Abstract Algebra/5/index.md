@@ -1,5 +1,5 @@
 ---
-title: Permutation Groups
+title: Chapter 5 Permutation Groups
 tags:
   - groups/permutation
 ---
