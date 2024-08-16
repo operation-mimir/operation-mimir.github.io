@@ -1,6 +1,7 @@
 ---
 title: 
 tags:
+  - theorem
 ---
 *Statement*
 
