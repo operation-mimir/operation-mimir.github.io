@@ -16,3 +16,4 @@ Let $A = \{1,2,\ldots,n\}$. The set of all permutations of $A$ is called the *sy
 
 ## Cycle Notation
 An expression of the form $(a_1,a_2,\ldots,a_m)$ is called a cycle of *length* $m$ or an $m$-cycle.
+
