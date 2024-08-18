@@ -10,7 +10,7 @@ Let $\alpha$ be a permutation on $A = \{1,2,\ldots,n \}$. To write $\alpha$ in d
 $$
 a_2 = \alpha(a_1), \quad a_3 = \alpha(\alpha(a_1)) = \alpha^2(a_1)
 $$
-and so on, until we arrive at $a_1 = \alpha^m(a_1)$ for some $m$. We know that such a $m$ exists because the sequence $a_1, \alpha(a_1),\alpha^2(a_1),\ldots$ must be finite; so there must eventually be a repetition, say $\alpha^i(a_1) = \alpha^j(a_1)$ for some $i$ and $j$ with $i < j$. Then $a_1 = \alpha^m a(a_1)$, where $m = j - i$. We express this relationship among $a_1, a_2, \ldots, a_m$ as
+and so on, until we arrive at $a_1 = \alpha^m(a_1)$ for some $m$. We know that such a $m$ exists because the sequence $a_1$,$\alpha(a_1)$, $\alpha^2(a_1)$, $\ldots$ must be finite; so there must eventually be a repetition, say $\alpha^i(a_1) = \alpha^j(a_1)$ for some $i$ and $j$ with $i < j$. Then $a_1 = \alpha^m a(a_1)$, where $m = j - i$. We express this relationship among $a_1, a_2, \ldots, a_m$ as
 $$
 \alpha = (a_1, a_2,\ldots, a_m)\cdots
 $$
