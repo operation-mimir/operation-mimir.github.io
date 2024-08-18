@@ -7,12 +7,12 @@ tags:
 
 ### Part 1. Integers and Equivalence Relations
 
-0. [[Gallian Abstract Algebra/0/index|Preliminaries]]
+0. [[gallian abstract algebra/0/index|Preliminaries]]
 ### Part 2. Groups
-1. [[Gallian Abstract Algebra/1/index|Introduction to Groups]]
-2. [[Gallian Abstract Algebra/2/index|Groups]]
-3. [[Gallian Abstract Algebra/3/index|Finite Groups: Subgroups]]
-4. [[Gallian Abstract Algebra/4/index|Cyclic Groups]]
+1. [[gallian abstract algebra/1/index|Introduction to Groups]]
+2. [[gallian abstract algebra/2/index|Groups]]
+3. [[gallian abstract algebra/3/index|Finite Groups: Subgroups]]
+4. [[gallian abstract algebra/4/index|Cyclic Groups]]
 5. [[gallian abstract algebra/5/index|Permutation Groups]]
-6. [[Gallian Abstract Algebra/6/index|Isomorphism]]
+6. [[gallian abstract algebra/6/index|Isomorphism]]
 7. 

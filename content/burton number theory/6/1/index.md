@@ -6,4 +6,4 @@ tags:
 ## Problems
 1. 
 
-Next: [[Burton Number Theory/6/2/index|Section 6.2]]
+Next: [[burton number theory/6/2/index|Section 6.2]]

@@ -4,7 +4,7 @@ tags:
 ---
 Parent: [[ross analysis/ch 6|Chapter 6 Integration]]
 
-Previous: [[Ross Elementary Analysis/31/index|Section 31]]
+Previous: [[ross analysis/31/index|Section 31]]
 
 ## Exercises
 1. [[ross analysis/32/1|Exercise 32.1]]
@@ -18,4 +18,4 @@ Previous: [[Ross Elementary Analysis/31/index|Section 31]]
 
 
 
-Next: [[Ross Elementary Analysis/33/index|Section 33]]
+Next: [[ross analysis/33/index|Section 33]]

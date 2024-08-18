@@ -4,13 +4,13 @@ tags:
   - integration
 ---
 
-Previous: [[Ross Elementary Analysis/Chapter 5|Chapter 5]]
+Previous: [[ross analysis/ch 5|Chapter 5]]
 ## Sections
 32. [[ross analysis/32/index|The Riemann Integral]]
-33.  [[Ross Elementary Analysis/33/index|Properties of Riemann Integral]]
-34. [[Ross Elementary Analysis/34/index|Fundamental Theorem of Calculus]]
-35. [[Ross Elementary Analysis/35/index|Riemann-Stieltjes Integral]]
-36. [[Ross Elementary Analysis/36/index|Improper Integrals]]
+33.  [[ross analysis/33/index|Properties of Riemann Integral]]
+34. [[ross analysis/34/index|Fundamental Theorem of Calculus]]
+35. [[ross analysis/35/index|Riemann-Stieltjes Integral]]
+36. [[ross analysis/36/index|Improper Integrals]]
 
 
-Next: [[Ross Elementary Analysis/Chapter 7|Chapter 7]]
+Next: [[ross analysis/ch 7|Chapter 7]]

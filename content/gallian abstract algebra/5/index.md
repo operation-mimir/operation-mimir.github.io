@@ -3,7 +3,7 @@ title: Chapter 5 Permutation Groups
 tags:
   - groups/permutation
 ---
-Previous: [[Gallian Abstract Algebra/4/index|Cyclic Groups]]
+Previous: [[gallian abstract algebra/4/index|Cyclic Groups]]
 
 ## Exercises
 
@@ -14,4 +14,4 @@ Previous: [[Gallian Abstract Algebra/4/index|Cyclic Groups]]
 - 
 
 
-Next: [[Gallian Abstract Algebra/6/index|Isomorphism]]
+Next: [[gallian abstract algebra/6/index|Isomorphism]]

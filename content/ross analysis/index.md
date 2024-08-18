@@ -5,10 +5,10 @@ tags:
   - calculus
 ---
 ## Chapters
-1. [[Ross Elementary Analysis/Chapter 1|Introduction]]
-2. [[Ross Elementary Analysis/Chapter 2|Sequences]]
-3. [[Ross Elementary Analysis/Chapter 3|Continuity]]
-4. [[Ross Elementary Analysis/Chapter 4|Sequences and Series of Functions]]
-5. [[Ross Elementary Analysis/Chapter 5|Differentiation]]
+1. [[ross analysis/ch 1|Introduction]]
+2. [[ross analysis/ch 2|Sequences]]
+3. [[ross analysis/ch 3|Continuity]]
+4. [[ross analysis/ch 4|Sequences and Series of Functions]]
+5. [[ross analysis/ch 5|Differentiation]]
 6. [[ross analysis/ch 6|Integration]]
-7. [[Ross Elementary Analysis/Chapter 7|Capstone]]
+7. [[ross analysis/ch 7|Capstone]]

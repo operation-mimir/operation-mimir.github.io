@@ -4,8 +4,8 @@ tags:
   - discrete-mathematics/graph-theory
 ---
 ## Chapters
-1. [[Goodaire Parmenter Discrete Maths/1/index|Yes, There are Proofs!]]
-2. [[Goodaire Parmenter Discrete Maths/2/index|Sets and Relations]]
+1. [[goodaire parmenter discrete maths/1/index|Yes, There are Proofs!]]
+2. [[goodaire parmenter discrete maths/2/index|Sets and Relations]]
 3. [[goodaire parmenter discrete maths/3/index|Functions]]
-4. [[Goodaire Parmenter Discrete Maths/4/index|The Integers]]
+4. [[goodaire parmenter discrete maths/4/index|The Integers]]
 5. 
