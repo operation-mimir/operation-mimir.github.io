@@ -17,7 +17,7 @@ $$
 L(f,P)\leq L(f,Q). \tag{2}
 $$
 
-An induction argument \[[[ross analysis/32/4|Exercises 32.4]]\] shows we may assume $Q$ has only one more point, say $u$, than $P$. If
+An induction argument \[[[ross analysis/32/4|Exercise 32.4]]\] shows we may assume $Q$ has only one more point, say $u$, than $P$. If
 
 $$
 P=\{a=t_0<t_1<\cdots<t_n=b \}
